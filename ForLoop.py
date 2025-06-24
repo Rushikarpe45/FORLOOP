@@ -183,6 +183,140 @@
 # else:
 #     print("it is not prime")
 
+# FOR LOOP///////
+
+# PRINT OR FIND THE LENGTH OF GIVEN COLLECTION WITHOUT USING LEN FUNCTION 
+# a=eval(input(" enter the collection: "))
+# c=0
+# for b in a:
+#     c+=1
+# print("length of collection: ",c)
+
+# to extract vowels from string
+# a=input("enter the string: ")
+# for b in a:
+#     if b in 'aeiouAEIOU':
+#         print(b,end=" ")
+
+# to replace space from given string    
+# a=input("enter the string: ")
+# c=""
+# for b in a:
+#     if b==" ":
+#         c+="_"
+#     else:
+#         c+=b
+# print(c)        
+         
+# TO CHECK OME WITHOUT USING SLICING
+# a=input("enter the string: ")
+# b=''
+# for i in a:
+#     b=i+b
+# if a==b:
+#     print("the given string is palindrome")
+# else: 
+#     print("the given string is not palindrome")
+    
+# TO EXTRACT INT WHICH ARE MULTIPLE OF 5 AND 3
+# a=eval(input("enter the list: "))
+# for b in a:
+#     if type(a)==int:
+#         if a%5==0 and a%3==0:
+#             print(b,end=" ")
+
+# TO REMOVE DUPLICATE FROM THE LIST WITHOUT TYPECASTING
+# a=eval(input("enter the list: "))
+# b=[]
+# for i in a:
+#     if i not in b:
+#         b.append(i)
+# print(b)
+
+# CONVERT THE TUPLE INTO DICT
+# a=eval(input("enter the tuple: "))
+# i=0  
+# s={}
+# while i<len(a):
+#     if type(a[i])==str:
+#         s[a[i]]=len(a[i])
+#     i+=1
+# print(s)
+
+#  To get the following output:
+# 1=[12,3.4, 'data', 'science'] output=('data': 'da', 'science': 'se')
+# a=eval(input("enter the list: "))
+# i=0
+# s={} 
+# while i<len(a):
+#     if type(a[i])==str:
+#      s[a[i]]=a[i][0:2]   
+#     i+=1
+# print(s)
+
+# To get the following output
+# a=input("enter the string: ")
+# s={}
+# i=0
+# while i<len(a):
+#     if a[i]  in s:
+#         s[a[i]]== 'A'<=a[i]<='Z'
+#         print(chr(ord(a[i])+32),end="")
+#     else:
+#          print(chr(ord(a[i])-32),end="")
+# i+=1
+
+
+# 10. To create the string with uppercase character from A to Z.
+# a=input("enter the string: ")
+# s=""
+# i=0
+# while i<len(a):
+#     if 'A'<=a[i]<='Z':
+#         s+=a[i]
+#     i+=1
+# print(s)
+
+# SPLIT FUNCTION
+# z='hey hello how are you'
+# print(z.split("h"))
+
+# a=eval(input("enter the string: "))
+# i=0
+# s={}
+# for i in a.split(' '):
+#     s[i]=len(i)
+# print(s)
+
+# to get the following outputp
+# p=["python.py","web.html","google.com"]
+# # output=["py","html","com"]
+# i=0
+# l=[]
+# for i in p:
+#     l.append(i.split(".")[1])
+# print(l)
+
+# to get the following outputp
+# p=["python.py","web.html","google.com"]
+# output={"py.python,html.web,com.google"}
+# s={}
+# for i in p:
+#    n=i.split(".")
+#    s[n[len(n)-1]]=n[0]
+# print(s)
+
+# a='Do code  by yourself'
+# # output='oD edoc yb flesruoy'
+# s=''
+# i=0  
+# for i in a.split(' '):
+#     s+=i[::-1]+" "
+# print(s)
+
+
+
+    
 
 
 
